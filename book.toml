@@ -1,8 +1,46 @@
 [book]
+title = "book123"
 authors = ["221V"]
-language = "en"
-multilingual = false
+description = "The example book covers examples."
+language = "uk"
+multilingual = true
 src = "src"
-title = "test2"
+
 [output.html]
 theme = "src/theme"
+default-theme = "light"
+preferred-dark-theme = "ayu"
+curly-quotes = false
+#copy-fonts = true
+#google-analytics = "UA-123456-7"
+#additional-css = ["custom2.css"]
+#additional-js = ["custom.js"]
+#git-repository-url = "https://github.com/rust-lang/mdBook"
+#git-repository-icon = "fa-github"
+#site-url = "/example-book/"
+#cname = "myproject.rs"
+#input-404 = "not-found.md"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html.print]
+enable = false
+
+[output.html.search]
+enable = true
+limit-results = 15
+teaser-word-count = 15
+
+#[output.html.redirect]
+#"/appendices/bibliography.html" = "https://rustc-dev-guide.rust-lang.org/appendix/bibliography.html"
+#"/other-installation-methods.html" = "../infra/other-installation-methods.html"
+
+#[preprocessor.mathjax]
+#renderers = ["html"]
+
+[language.uk]
+name = "Українська"
+default = true
+
