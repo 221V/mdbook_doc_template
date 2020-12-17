@@ -11,6 +11,7 @@ theme = "src/theme"
 default-theme = "light"
 preferred-dark-theme = "ayu"
 curly-quotes = false
+mathjax-support = true
 #copy-fonts = true
 #google-analytics = "UA-123456-7"
 #additional-css = ["custom2.css"]
@@ -37,8 +38,9 @@ teaser-word-count = 15
 #"/appendices/bibliography.html" = "https://rustc-dev-guide.rust-lang.org/appendix/bibliography.html"
 #"/other-installation-methods.html" = "../infra/other-installation-methods.html"
 
-#[preprocessor.mathjax]
-#renderers = ["html"]
+[preprocessor.index]
+
+[preprocessor.links]
 
 [language.uk]
 name = "Українська"
