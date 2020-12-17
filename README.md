@@ -2,6 +2,8 @@
 
 mdBook v0.4.4 for doc/book template
 
+https://rust-lang.github.io/mdBook/cli/index.html
+
 https://github.com/rust-lang/mdBook
 
 https://codeload.github.com/rust-lang/mdBook/zip/eaa69142059c04ca14aa23ffeb1fe1469663403f
