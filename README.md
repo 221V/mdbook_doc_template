@@ -1,12 +1,18 @@
 # mdbook_doc_template
 
-mdBook v0.4.4 for doc/book template
+mdBook v0.4.11 for doc/book template
 
 https://rust-lang.github.io/mdBook/cli/index.html
 
+```
+./mdbook build
+
+./mdbook serve
+```
+
 https://github.com/rust-lang/mdBook
 
-https://codeload.github.com/rust-lang/mdBook/zip/eaa69142059c04ca14aa23ffeb1fe1469663403f
+https://github.com/rust-lang/mdBook/releases/tag/v0.4.11
 
-https://github.com/rust-lang/mdBook/releases/download/v0.4.4/mdbook-v0.4.4-x86_64-unknown-linux-gnu.tar.gz
+https://github.com/rust-lang/mdBook/releases/download/v0.4.11/mdbook-v0.4.11-x86_64-unknown-linux-gnu.tar.gz
 

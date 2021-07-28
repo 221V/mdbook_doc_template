@@ -3,6 +3,8 @@
 // Fix back button cache problem
 window.onunload = function () { };
 
+/*
+
 // Global variable, shared between modules
 function playground_text(playground) {
     let code_block = playground.querySelector("code");
@@ -270,6 +272,7 @@ function playground_text(playground) {
         }
     });
 })();
+*/
 
 (function themes() {
     var html = document.querySelector('html');
@@ -307,12 +310,12 @@ function playground_text(playground) {
         let ace_theme;
 
         if (theme == 'ayu') {
-            stylesheets.ayuHighlight.disabled = false;
-            stylesheets.highlight.disabled = true;
+            //stylesheets.ayuHighlight.disabled = false;
+            //stylesheets.highlight.disabled = true;
             ace_theme = "ace/theme/tomorrow_night";
         } else {
-            stylesheets.ayuHighlight.disabled = true;
-            stylesheets.highlight.disabled = false;
+            //stylesheets.ayuHighlight.disabled = true;
+            //stylesheets.highlight.disabled = false;
             ace_theme = "ace/theme/dawn";
         }
 
