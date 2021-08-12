@@ -11,6 +11,7 @@ theme = "src/theme"
 default-theme = "light"
 preferred-dark-theme = "ayu"
 curly-quotes = false
+no-section-label = true
 mathjax-support = true
 #copy-fonts = true
 #google-analytics = "UA-123456-7"
@@ -25,6 +26,10 @@ mathjax-support = true
 [build]
 build-dir = "book"
 create-missing = false
+
+[output.html.fold]
+enable = true
+level = 1
 
 [output.html.print]
 enable = false
